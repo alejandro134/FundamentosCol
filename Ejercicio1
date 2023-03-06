@@ -1,0 +1,15 @@
+#id, nombre, tipo_cuenta, consignacion
+#validaciones
+#mostrar
+
+#capturar informacion desde el teclado
+id = input("digite su documento de identidad ") #metodo
+nombre = input("Ingrese Su Nombre ")
+Tipo_cuenta = input("Tipo Cuenta")
+Consignacion = float(input("Valor  consignar"))
+
+# Mostrando I formacion Por Pantalla
+print("Identificacion          : "+id)
+print("Nombre                  : {}".format(nombre))
+print(f"Tipo de Cuenta         : {Tipo_cuenta}")
+print("valor a Consignar       : {:,.2f}".format(Consignacion))
